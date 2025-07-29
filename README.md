@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do projeto **Oficina do Papel**! Este é um projeto front-end completo que simula um e-commerce para uma papelaria fictícia, focado em criar uma experiência de usuário limpa, moderna e interativa. O objetivo foi construir um site estático, mas com funcionalidades dinâmicas simuladas via JavaScript, demonstrando habilidades em desenvolvimento web do zero.
 
-**🔗 Veja a demonstração ao vivo:** (https://quiet-stroopwafel-9df82a.netlify.app/)
+**🔗 Veja a demonstração ao vivo:** (https://dynamic-bunny-65e700.netlify.app/)
 
 ---
 
