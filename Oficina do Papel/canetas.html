@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canetas - Oficina do Papel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" class="logo">
+            <img src="assets/logo.png" alt="Oficina do Papel Logo">
+        </a>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="novidades.html">Novidades</a>
+            <a href="papelaria-fina.html">Papelaria Fina</a>
+            <a href="personalizados.html">Personalizados</a>
+        </nav>
+        <div class="nav-icons">
+            <a href="#" aria-label="Busca"><img src="assets/search-icon.svg" alt="Busca"></a>
+            
+            <div class="account-container">
+                <a href="#" aria-label="Minha Conta"><img src="assets/user-icon.svg" alt="Conta"></a>
+                <div class="account-dropdown">
+                    <a href="#">Entrar</a>
+                    <a href="#">Criar Conta</a>
+                </div>
+            </div>
+
+            <a href="#" aria-label="Carrinho"><img src="assets/cart-icon.svg" alt="Carrinho"></a>
+        </div>
+    </div>
+</header>
+<div id="search-overlay" class="search-overlay">
+    <button class="close-btn" id="close-search">&times;</button>
+    <div class="search-content">
+        <form class="search-form">
+            <input type="search" placeholder="O que você procura?">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</div>
+    <main>
+        <section class="page-header">
+            <h1>Canetas</h1>
+            <p>A ferramenta essencial para toda ideia. Encontre a cor e a ponta perfeitas para sua escrita e seus desenhos.</p>
+        </section>
+
+        <section class="product-grid-section">
+            <div class="product-grid">
+                <a href="produto.html?id=2" class="product-card-link">
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <img src="assets/produto2.jpg" alt="Kit de Canetas Pastel">
+                            <button class="quick-view-btn">Visualização Rápida</button>
+                        </div>
+                        <h3>Kit de Canetas Pastel</h3>
+                        <p>R$ 79,90</p>
+                    </div>
+                </a>
+                <a href="produto.html?id=5" class="product-card-link">
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <img src="assets/produto5.jpg" alt="Kit Marca-Texto Grifpen Pastel">
+                            <button class="quick-view-btn">Visualização Rápida</button>
+                        </div>
+                        <h3>Kit Marca-Texto Grifpen Pastel</h3>
+                        <p>R$ 28,90</p>
+                    </div>
+                </a>
+                </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>AJUDA</h4>
+                <a href="#">Fale Conosco</a>
+                <a href="#">Perguntas Frequentes</a>
+                <a href="#">Envios e Prazos</a>
+            </div>
+            <div class="footer-column">
+                <h4>INSTITUCIONAL</h4>
+                <a href="sobre.html">Nossa História</a>
+                <a href="#">Blog</a>
+                <a href="#">Trabalhe Conosco</a>
+            </div>
+            <div class="footer-column">
+                <h4>NEWSLETTER</h4>
+                <p>Receba inspiração e 10% de desconto.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu e-mail">
+                    <button type="submit">INSCREVER</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Oficina do Papel | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+<div id="cart-sidebar" class="cart-sidebar">
+    <div class="cart-header">
+        <h3>Meu Carrinho</h3>
+        <button class="close-btn" id="close-cart">&times;</button>
+    </div>
+    <div class="cart-body">
+        <div class="cart-item">
+            <img src="assets/produto1.jpg" alt="Caderno Floral">
+            <div class="cart-item-info">
+                <p>Caderno Floral</p>
+                <p>R$ 49,90</p>
+            </div>
+        </div>
+         <div class="cart-item">
+            <img src="assets/produto2.jpg" alt="Kit de Canetas Pastel">
+            <div class="cart-item-info">
+                <p>Kit de Canetas Pastel</p>
+                <p>R$ 79,90</p>
+            </div>
+        </div>
+    </div>
+    <div class="cart-footer">
+        <div class="cart-subtotal">
+            <p>Subtotal</p>
+            <p>R$ 129,80</p>
+        </div>
+        <a href="#" class="btn-primary" style="background-color: var(--rosa-quartzo); border: none; color: white; text-align: center;">Finalizar Compra</a>
+    </div>
+</div>
+</html>

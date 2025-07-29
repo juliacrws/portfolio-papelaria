@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caderno Floral - Oficina do Papel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" class="logo">
+            <img src="assets/logo.png" alt="Oficina do Papel Logo">
+        </a>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="novidades.html">Novidades</a>
+            <a href="papelaria-fina.html">Papelaria Fina</a>
+            <a href="personalizados.html">Personalizados</a>
+        </nav>
+        <div class="nav-icons">
+            <a href="#" aria-label="Busca"><img src="assets/search-icon.svg" alt="Busca"></a>
+            
+            <div class="account-container">
+                <a href="#" aria-label="Minha Conta"><img src="assets/user-icon.svg" alt="Conta"></a>
+                <div class="account-dropdown">
+                    <a href="#">Entrar</a>
+                    <a href="#">Criar Conta</a>
+                </div>
+            </div>
+
+            <a href="#" aria-label="Carrinho"><img src="assets/cart-icon.svg" alt="Carrinho"></a>
+        </div>
+    </div>
+</header>
+<div id="search-overlay" class="search-overlay">
+    <button class="close-btn" id="close-search">&times;</button>
+    <div class="search-content">
+        <form class="search-form">
+            <input type="search" placeholder="O que você procura?">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</div>
+    <main>
+        <div class="pdp-main-section">
+            <div class="pdp-gallery">
+                <div class="main-image">
+                    <img src="assets/produto1.jpg" alt="Caderno Floral vista frontal" id="mainProductImage">
+                </div>
+                <div class="thumbnail-images">
+                    <img src="assets/produto1.jpg" alt="Thumbnail 1" class="thumbnail active">
+                    <img src="assets/produto1-detalhe1.jpg" alt="Thumbnail 2" class="thumbnail">
+                    <img src="assets/produto1-detalhe2.jpg" alt="Thumbnail 3" class="thumbnail">
+                </div>
+            </div>
+            <div class="pdp-info">
+                <h1 class="product-title">Caderno Floral</h1>
+                <p class="product-price">R$ 49,90</p>
+                <p class="product-short-description">
+                    Perfeito para anotações, diários ou bullet journal. Capa dura com toque aveludado e elástico para fechamento. Leve a primavera com você todos os dias.
+                </p>
+                <div class="purchase-actions">
+                    <div class="quantity-selector">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                    <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pdp-details-section">
+            <div class="tabs">
+                <button class="tab-link active" data-tab="descricao">Descrição</button>
+                <button class="tab-link" data-tab="especificacoes">Especificações</button>
+                <button class="tab-link" data-tab="avaliacoes">Avaliações</button>
+            </div>
+            <div id="descricao" class="tab-content active">
+                <p>O Caderno Floral da Oficina do Papel é mais que um simples caderno, é um convite à inspiração...</p>
+            </div>
+            <div id="especificacoes" class="tab-content">
+                <ul>
+                    <li><strong>Tamanho:</strong> A5 (14,8 x 21 cm)</li>
+                    <li><strong>Capa:</strong> Capa dura com laminação fosca</li>
+                </ul>
+            </div>
+            <div id="avaliacoes" class="tab-content">
+                <p>Seja o primeiro a avaliar!</p>
+            </div>
+        </div>
+
+        <section class="products-section">
+            <h2>Quem viu, amou também</h2>
+            <div class="product-carousel">
+                 <a href="produto.html" class="product-card-link">
+                    <div class="product-card">
+                        <img src="assets/produto2.jpg" alt="Kit de Canetas Pastel">
+                        <h3>Kit de Canetas Pastel</h3>
+                        <p>R$ 79,90</p>
+                    </div>
+                </a>
+                <a href="produto.html" class="product-card-link">
+                    <div class="product-card">
+                        <img src="assets/produto6.jpg" alt="Coleção de Fitas Washi Tape">
+                        <h3>Coleção de Fitas Washi Tape</h3>
+                        <p>R$ 18,90</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>AJUDA</h4>
+            <a href="fale-conosco.html">Fale Conosco</a>
+            <a href="faq.html">Perguntas Frequentes</a>
+            <a href="envios-prazos.html">Envios e Prazos</a>
+        </div>
+        <div class="footer-column">
+            <h4>INSTITUCIONAL</h4>
+            <a href="sobre.html">Nossa História</a>
+            <a href="blog.html">Blog</a>
+            <a href="trabalhe-conosco.html">Trabalhe Conosco</a>
+        </div>
+        <div class="footer-column">
+            <h4>NEWSLETTER</h4>
+            <p>Receba inspiração e 10% de desconto.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Seu e-mail">
+                <button type="submit">INSCREVER</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 Oficina do Papel | Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+<div id="cart-sidebar" class="cart-sidebar">
+    <div class="cart-header">
+        <h3>Meu Carrinho</h3>
+        <button class="close-btn" id="close-cart">&times;</button>
+    </div>
+    <div class="cart-body">
+        <div class="cart-item">
+            <img src="assets/produto1.jpg" alt="Caderno Floral">
+            <div class="cart-item-info">
+                <p>Caderno Floral</p>
+                <p>R$ 49,90</p>
+            </div>
+        </div>
+         <div class="cart-item">
+            <img src="assets/produto2.jpg" alt="Kit de Canetas Pastel">
+            <div class="cart-item-info">
+                <p>Kit de Canetas Pastel</p>
+                <p>R$ 79,90</p>
+            </div>
+        </div>
+    </div>
+    <div class="cart-footer">
+        <div class="cart-subtotal">
+            <p>Subtotal</p>
+            <p>R$ 129,80</p>
+        </div>
+        <a href="#" class="btn-primary" style="background-color: var(--rosa-quartzo); border: none; color: white; text-align: center;">Finalizar Compra</a>
+    </div>
+</div>
+</html>

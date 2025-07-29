@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizados - Oficina do Papel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" class="logo">
+            <img src="assets/logo.png" alt="Oficina do Papel Logo">
+        </a>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="novidades.html">Novidades</a>
+            <a href="papelaria-fina.html">Papelaria Fina</a>
+            <a href="personalizados.html">Personalizados</a>
+        </nav>
+        <div class="nav-icons">
+            <a href="#" aria-label="Busca"><img src="assets/search-icon.svg" alt="Busca"></a>
+            
+            <div class="account-container">
+                <a href="#" aria-label="Minha Conta"><img src="assets/user-icon.svg" alt="Conta"></a>
+                <div class="account-dropdown">
+                    <a href="#">Entrar</a>
+                    <a href="#">Criar Conta</a>
+                </div>
+            </div>
+
+            <a href="#" aria-label="Carrinho"><img src="assets/cart-icon.svg" alt="Carrinho"></a>
+        </div>
+    </div>
+</header>
+<div id="search-overlay" class="search-overlay">
+    <button class="close-btn" id="close-search">&times;</button>
+    <div class="search-content">
+        <form class="search-form">
+            <input type="search" placeholder="O que você procura?">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</div>
+    <main>
+        <section class="page-header">
+            <h1>Crie Algo Unicamente Seu</h1>
+            <p>De convites de casamento a brindes corporativos, transformamos suas ideias em papelaria exclusiva.</p>
+        </section>
+
+        <section class="how-it-works-section">
+            <h2>Nosso Processo Criativo</h2>
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Sua Ideia</h3>
+                    <p>Você nos conta sua necessidade e suas inspirações através do nosso formulário de contato.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Proposta e Design</h3>
+                    <p>Nossa equipe cria uma proposta de design e envia uma prova digital para sua aprovação.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Produção Mágica</h3>
+                    <p>Após a aprovação, produzimos seu material com todo o cuidado e a qualidade da Oficina do Papel.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Entrega Especial</h3>
+                    <p>Enviamos seu pedido exclusivo e bem embalado para qualquer lugar do Brasil.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section">
+            <h2>Inspire-se em Nosso Portfólio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="assets/portfolio1.jpg" alt="Convites de Casamento Personalizados">
+                    <div class="portfolio-overlay">Convites de Casamento</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio2.jpg" alt="Brindes Corporativos Personalizados">
+                    <div class="portfolio-overlay">Brindes Corporativos</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/portfolio3.jpg" alt="Cadernos com Monograma">
+                    <div class="portfolio-overlay">Cadernos com Monograma</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Vamos Começar Seu Projeto?</h2>
+            <p>Preencha o formulário abaixo e nossa equipe entrará em contato em até 48 horas.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu melhor e-mail" required>
+                <select required>
+                    <option value="">Qual o tipo de projeto?</option>
+                    <option value="casamento">Casamento e Eventos</option>
+                    <option value="corporativo">Brindes Corporativos</option>
+                    <option value="pessoal">Presente Pessoal</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <textarea placeholder="Conte-nos um pouco sobre sua ideia..." rows="6" required></textarea>
+                <button type="submit" class="btn-primary" style="background-color: var(--rosa-quartzo); border: none; color: white;">ENVIAR SOLICITAÇÃO</button>
+            </form>
+        </section>
+    </main>
+
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>AJUDA</h4>
+            <a href="fale-conosco.html">Fale Conosco</a>
+            <a href="faq.html">Perguntas Frequentes</a>
+            <a href="envios-prazos.html">Envios e Prazos</a>
+        </div>
+        <div class="footer-column">
+            <h4>INSTITUCIONAL</h4>
+            <a href="sobre.html">Nossa História</a>
+            <a href="blog.html">Blog</a>
+            <a href="trabalhe-conosco.html">Trabalhe Conosco</a>
+        </div>
+        <div class="footer-column">
+            <h4>NEWSLETTER</h4>
+            <p>Receba inspiração e 10% de desconto.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Seu e-mail">
+                <button type="submit">INSCREVER</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 Oficina do Papel | Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+<div id="cart-sidebar" class="cart-sidebar">
+    <div class="cart-header">
+        <h3>Meu Carrinho</h3>
+        <button class="close-btn" id="close-cart">&times;</button>
+    </div>
+    <div class="cart-body">
+        <div class="cart-item">
+            <img src="assets/produto1.jpg" alt="Caderno Floral">
+            <div class="cart-item-info">
+                <p>Caderno Floral</p>
+                <p>R$ 49,90</p>
+            </div>
+        </div>
+         <div class="cart-item">
+            <img src="assets/produto2.jpg" alt="Kit de Canetas Pastel">
+            <div class="cart-item-info">
+                <p>Kit de Canetas Pastel</p>
+                <p>R$ 79,90</p>
+            </div>
+        </div>
+    </div>
+    <div class="cart-footer">
+        <div class="cart-subtotal">
+            <p>Subtotal</p>
+            <p>R$ 129,80</p>
+        </div>
+        <a href="#" class="btn-primary" style="background-color: var(--rosa-quartzo); border: none; color: white; text-align: center;">Finalizar Compra</a>
+    </div>
+</div>
+</html>
